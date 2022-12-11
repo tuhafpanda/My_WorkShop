@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    padding: 40px;
+    background-color: red;
+    color:aliceblue;
+    font-size: 40px;
+}
+nav {
+    background-color: #bc6bfa;
+    padding: 20px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+nav a {
+color: aliceblue;
+text-decoration:none;
+}
+
+/* nav a:link{
+    color: aqua;
+}
+nav a:visited{
+    color: coral;
+} */
+nav a:hover{
+    text-decoration: underline;
+}
+ footer{
+    background:rgba(0, 0, 0, 0.541);
+    padding: 15px;
+    color:antiquewhite;
+ }
+ figcaption{
+    margin-bottom: 30px;
+ }

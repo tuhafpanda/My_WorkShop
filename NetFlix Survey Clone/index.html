@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Form Clone-2</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+    </style>
+  </head>
+  <body>
+    <h1>NET<span>FLIX</span></h1>
+    <p>Thank you for signing up at Netflix. Tell us more about yourself</p>
+
+    <form>
+      <div class="bir">
+        <label for="name">Name</label><br />
+        <input
+          class="iki"
+          type="text"
+          name="name"
+          id="name"
+          placeholder="enter your name"
+        />
+      </div>
+      <div class="bir">
+        <label for="age">Age</label><br />
+        <input
+          class="iki"
+          type="number"
+          name="age"
+          id="age"
+          placeholder="age"
+        />
+      </div>
+      <div class="bir">
+        <label for="email">Email</label><br />
+        <input
+          class="iki"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="enter your Email"
+        />
+      </div>
+      <div class="bir">
+        <label for="content">Content Type</label><br />
+        <select class="uc" name="content" id="content">
+          <option value="series" selected>Series</option>
+          <option value="documantary">Documantary</option>
+          <option value="reality">Reality Show</option>
+          <option value="movie">Movie</option>
+        </select>
+      </div>
+      <div class="dort">
+        <label for="movie">Movie Type</label><br />
+        <input type="checkbox" name="movie" id="comedy" />
+        <label for="comedy">Comedy</label><br />
+        <input type="checkbox" name="movie" id="action" />
+        <label for="action">Action</label><br />
+        <input type="checkbox" name="movie" id="romance" checked />
+        <label for="romance">Romance</label>
+      </div>
+      <div class="dort">
+        <label for="gender">Gender</label><br />
+        <input type="radio" name="gender" id="male" />
+        <label for="male">Male</label><br />
+        <input type="radio" name="gender" id="female" />
+        <label for="female">Female</label><br />
+        <input type="radio" name="gender" id="other" />
+        <label for="other">Other</label>
+      </div>
+      <div class="bir">
+        <div class="bes"><label for="feedback">Feedback</label></div>
+        <textarea
+          name="feedback"
+          id="feedback"
+          cols="44"
+          rows="8"
+          placeholder="any comment"
+        ></textarea>
+      </div>
+      <div class="alti">
+        <input type="submit" id="submit" value="Send" />
+      </div>
+    </form>
+  </body>
+</html>
