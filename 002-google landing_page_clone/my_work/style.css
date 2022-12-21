@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;  
+  margin-top: 20px;
+  font-size: 0.8rem; 
+}
+.header-left a{   
+   margin: 15px;
+   text-decoration: none;
+   vertical-align:-webkit-baseline-middle;
+   color:rgb(89,89,89)
+}
+.header-left a:hover{
+    text-decoration: underline;
+}
+.header-right a{   
+    margin: 15px;
+    vertical-align:middle;
+    text-decoration: none;
+    color:rgb(89,89,89)
+    
+ }
+ .header-right a:hover{
+     text-decoration: underline;
+ }
+ header img:hover{
+    color: black;   
+ }
+ header button{
+    margin-right: 10px;
+    padding: 5px;
+    font-size: larger;
+    font-weight: 800;
+    background-color:#4285F4;
+    color: azure;
+    border: none;
+ }
+ .container2{
+    /* border: 2px solid red; */
+    text-align: center;
+    position: relative;
+    top:9rem; 
+ }
+.logo{
+    /* border: 2px solid red; */
+    width:400px;
+   }
+      
+   #search{
+    /* border: 2px solid red; */
+    padding: 12px;
+    width: 550px;
+    height: 50px;
+    border-radius: 30px;
+    position: relative;
+    left: 3px;
+    border: 1px solid rgb(224, 222, 222);
+   }
+   #search:hover{
+    box-shadow: 3px 3px 8px gainsboro;
+   }
+.sr-imgs{
+    /* border: 2px solid purple; */
+    width:525px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    bottom: 41px;
+}
+
+.buttons button{
+    /* border: 2px solid tomato; */
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    color:rgb(89,89,89)
+}
+.buttons button:hover{
+    color: black;
+    cursor: pointer;    
+}
+footer{
+    /* border: 2px solid red; */
+    position: relative;
+    bottom:-700px;    
+    background-color: #F2F2F2;
+    color:rgb(89,89,89)
+    
+}
+.country{
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 0.9rem;
+    
+}
+.last-line{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    padding: 10px;
+}
+.last-line .foot-left a{
+    padding: 10px;
+    text-decoration: none;
+    color:rgb(89,89,89);
+}
+.last-line .foot-left a:hover{
+  text-decoration: underline;  
+}
+.last-line .foot-right a{
+    padding: 10px;
+    text-decoration: none;
+    color:rgb(89,89,89);
+}
+.last-line .foot-right a:hover{
+  text-decoration: underline;  
+}
+hr{
+border: 0.3px thin grey;
+}
