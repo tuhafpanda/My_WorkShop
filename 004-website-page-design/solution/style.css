@@ -126,3 +126,78 @@ footer{
     display: flex;
     font-size: larger;
    }
+
+   /*! ABOUT HTML*/
+   section.about {
+    height: 60vh;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding: 1rem;
+    line-height: 1rem;
+    }
+   .about__main--one{
+    flex-grow: 3;
+   }
+   .about__main_two{
+    padding: 10px;
+    color:antiquewhite;
+    background-color:#2f3c46
+   }
+   .about__main--aside{
+    flex-grow: 1;
+    color:antiquewhite;
+    padding: 1rem;
+    max-height:30vh;
+    justify-content: center;
+    align-content: center;
+    margin-left: 0.7rem;
+    background-color: #2f3c46;
+   }
+
+   /*! SERVICES HTML */
+   .services__main{
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin: 1rem;
+    gap: 1rem 2rem;  
+    
+   }   
+   
+   .services{
+    flex-grow: 3;
+    display: flex;    
+    flex-direction: column;
+    gap: 0.5rem;
+   }
+   .description1, .description2, .description3 {
+    background-color: lightsteelblue;
+    padding: 1rem;
+    border-bottom: 3px solid white;
+   }
+   .form{
+    padding: 0.5rem;
+    max-height: 40vh;
+    max-width:30vw;
+    color:beige;
+    flex-grow: 1;
+    background-color: #2f3c46;    
+   }
+   .form h3{
+    text-align: center;
+   }
+   .form input{
+    width:25vw;
+    margin-bottom: 0.7rem;
+   }
+   .form button{
+    color:beige;
+    padding: 3px;
+    background-color: tomato;    
+    font-weight: 500;
+    border: none;
+   }
+   #message{
+    width: 25vw;
+   }

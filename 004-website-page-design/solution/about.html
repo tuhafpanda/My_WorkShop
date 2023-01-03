@@ -1,29 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Page</title>
-   <link rel="stylesheet" href="./style.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <header>
-        <div class="header__left">
-          <p><span>Clarusway</span> Web Design</p>
+      <div class="header__left">
+        <p><span>Clarusway</span> Web Design</p>
+      </div>
+      <div class="header__right">
+        <a class="home" href="./index.html" target="">HOME</a>
+        <a class="color" href="./about.html" target="">ABOUT</a>
+        <a class="color" href="./services.html" target="">SERVICES</a>
+      </div>
+    </header>
+    <section class="subscribe">
+      <div class="subscribe__left">
+        <h2>Subscribe To Our Newsletter</h2>
+      </div>
+      <div class="subscribe__right">
+        <input
+          type="email"
+          name="email"
+          id="submit"
+          placeholder="Enter Email..."
+        />
+        <button type="submit">Subscribe</button>
+        <!-- <label for="email">Subscribe</label> -->
+      </div>
+    </section>
+    <section class="about">
+      <div class="about__main--one">
+        <h2>About Us</h2>
+        <br>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
+          repellat, debitis sunt iste, quasi illum provident accusantium
+          necessitatibus minus eius ad ex sit architecto praesentium cumque!
+          Quae temporibus accusantium, quasi autem ducimus hic sint minima!          
+        </p>
+        <br>
+        <div class="about__main_two">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            id, consequuntur repudiandae doloribus explicabo provident odit,
+            adipisci magni necessitatibus animi consectetur distinctio dolores
+            ea earum, assumenda quae iusto est. Doloremque eius dolorum
+            voluptate adipisci, consequuntur nemo numquam velit, modi, id eaque
+            exercitationem alias? Exercitationem voluptatum iure est sequi
+            perferendis in cupiditate commodi nisi possimus animi molestiae.
+          </p>
         </div>
-        <div class="header__right">
-          <a class="home" href="./index.html" target="">HOME</a>
-          <a class="color" href="./about.html" target="">ABOUT</a>
-          <a class="color" href="./services.html" target="">SERVICES</a>
-        </div>
-      </header>
-      <br><br><br><br><br>
-    <div class="underconstruction">
-      <i class="fa-solid fa-person-digging"></i> <br><br>
-      <p>This page is underconstruction !!</p>
-  
-    </div>
-</body>
+      </div>
+
+      <div class="about__main--aside">
+        <h2>What We Do</h2>
+        <br>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam natus
+          cupiditate officiis repellat delectus ut quasi suscipit nihil
+          voluptatum itaque commodi.
+        </p>
+      </div>
+    </section>
+    <footer>
+      <!--alt +0169-->
+      <p>Clarusway Web Design, Copyright © 2020</p>
+      <br />
+      <img src="./images/clarusway_logo.png" alt="logo" />
+    </footer>
+  </body>
 </html>
