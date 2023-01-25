@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;  
+}
+.body{
+  height: 100vh;
+  width: 100vw;
+}
+
+header{
+margin: 0.5rem auto 1rem;  
+max-width: 320px;
+height:130px;
+text-align: center;
+line-height: 0.15;
+}
+header img{
+  width:90px;
+}
+
+h2{
+font-family: 'Permanent Marker', cursive;
+font-size:1.6rem;
+color:rgb(207, 65, 65);
+text-shadow: 1px 2px 2px rgb(25, 24, 24) ;
+padding-top: 10px;
+text-align: center;
+margin: 1rem;
+}
+header p{
+  font-size: 0.8rem;
+  font-family:cursive;
+  color:rgb(119, 115, 116);
+}
+main{
+  width: 75%;
+  max-width: 500px;
+  min-width: 300px;   
+  width: 70%;
+  margin: 1rem auto;
+ 
+}
+#container{      
+  background-color: rgba(200, 200, 199, 0.566);
+  border-radius: 10px;
+  }
+
+
+#product-panel {  
+  width: 100%;   
+  padding: 0.5rem 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+   
+}
+#product-panel .product {
+  position: relative;
+  width: 100%;
+  display: flex;
+  margin: 1rem 0;
+   
+}
+.product img {
+  width: 45%;
+  border-radius: 10px;
+  margin-right: 1rem;
+  border: 1px solid;
+}
+.product-info { 
+  width: 100%;  
+  text-align: center;
+}
+.product-info h3 {
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: #4e5150;
+  margin: 7px 0;
+}
+.product-info p {
+  font-size: 0.7rem;
+  color: #4e5150;
+  margin: 7px 0;
+}
+.product-info p strong {
+  color: #f2994a;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-right: 0.2rem;
+}
+.product-info p strong:after{
+  content: "₺";
+}
+.quantity-controller {
+  border-radius: 5px;
+  border: 2px solid rgb(136, 136, 136);
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  width: 60%;
+  margin: 1rem auto 0.5rem;
+}
+.quantity-controller p {
+  line-height: 0.8rem;
+  position: relative;
+  display: block;
+}
+
+.quantity-controller i {
+  font-size: 0.8rem;
+  color:rgb(92, 90, 90);  
+  padding:auto;      
+  
+}
+.product-removal button{
+  background-color:#c66;
+  color:aliceblue;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 12px;
+  margin-bottom: 5px;
+}
+.product-removal button:hover{
+  background-color: #a44;
+}
+.product-line-price{
+  
+  font-size:0.85rem
+}
+.product-line-price:after {
+  content: "₺";
+}
+.product-line-price:before {
+  content: "Ara Toplam:";
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+
+.buy-detail { 
+  margin: 5px 0;
+  border-top: 1px solid #131313;
+  display: flex;
+  position: relative;
+  width: 100%;
+  font-family: Mon, Arial, Helvetica, sans-serif;
+  background-color: rgba(170, 68, 68, 0.1);
+}
+
+.buy-detail p {
+  display: block;
+  width: 50%;
+}
+
+.buy-detail p:nth-child(2) { 
+  text-align: right;
+}
+.buy-detail p:nth-child(2):after{
+  content:"₺";
+}
+.line-through{
+  text-decoration:line-through ;
+}
+
+
+
+ 

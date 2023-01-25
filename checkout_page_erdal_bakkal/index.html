@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <title>Erdal Bakkal</title>
+  </head>
+  <body>
+    <header>
+      <h2><img src="images/bakkal.png" alt="logo" /> ERDALbakkal</h2>
+      <p><em>"Ne ararsan bizde var"</em></p>
+    </header>
+    <main>
+      <div id="container">
+        <div id="product-panel">
+          <div class="products">
+            <div class="product">
+              <img src="images/davul.png" alt="tambour" />
+              <div class="product-info">
+                <h3>Davul Tozu</h3>
+                <div class="product-price">
+                  <p>
+                    <strong>49</strong><span class="line-through">79.99₺</span>
+                  </p>
+                </div>
+                <div class="quantity-controller">
+                  <i class="fa-solid fa-minus"></i>
+                  <p class="quantity">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="product-removal">
+                  <button class="remove-product">iptal</button>
+                </div>
+                <div class="product-line-price">
+                  49
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <img src="images/minare-555.png" alt="minaret" />
+              <div class="product-info">
+                <h3>Minare Gölgesi</h3>
+                <div class="product-price">
+                  <p>
+                    <strong>34</strong><span class="line-through">47.99₺</span>
+                  </p>
+                </div>
+                <div class="quantity-controller">
+                  <i class="fa-solid fa-minus"></i>
+                  <p class="quantity">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="product-removal">
+                  <button class="remove-product">iptal</button>
+                </div>
+                <div class="product-line-price">34</div>
+              </div>
+            </div>
+            <div class="product">
+              <img src="images/ceviz.png" alt="hazelnut-shell" />
+              <div class="product-info">
+                <h3>Ceviz Kabuğu</h3>
+                <div class="product-price">
+                  <p>
+                    <strong>74.99</strong
+                    ><span class="line-through">99.99₺</span>
+                  </p>
+                </div>
+                <div class="quantity-controller">
+                  <i class="fa-solid fa-minus"></i>
+                  <p class="quantity">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="product-removal">
+                  <button class="remove-product">iptal</button>
+                </div>
+                <div class="product-line-price">
+                  74.99
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <img src="images/incir.png" alt="fig" />
+              <div class="product-info">
+                <h3>İncir Çekirdeği</h3>
+                <div class="product-price">
+                  <p>
+                    <strong>4.99</strong
+                    ><span class="line-through">15.99₺</span>
+                  </p>
+                </div>
+                <div class="quantity-controller">
+                  <i class="fa-solid fa-minus"></i>
+                  <p class="quantity">1</p>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="product-removal">
+                  <button class="remove-product">iptal</button>
+                </div>
+                <div class="product-line-price">
+                  4.99
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="buy-detail" id="cart-subtotal">
+            <p>Ürün Toplam</p>
+            <p>0</p>
+          </div>
+          <div class="buy-detail" id="cart-tax">
+            <p>Vergiler(%8)</p>
+            <p>0</p>
+          </div>
+          <div class="buy-detail" id="cart-shipping">
+            <p>Kargo Bedeli</p>
+            <p>0</p>
+          </div>
+          <div class="buy-detail" id="cart-total">
+            <p>Toplam</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
